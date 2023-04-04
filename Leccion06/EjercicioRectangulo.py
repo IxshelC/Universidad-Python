@@ -8,6 +8,10 @@ class Rectangulo:
     def area(self):
         return self.base * self.altura
 
+# Objetos
+Area1=Rectangulo(base= (float(input("Proporcione la base: "))),altura=(float(input("Proporcione la altura: "))))
+print(f'El área es: {Area1.area()}')
 
-Area=Rectangulo(base= (float(input("Proporcione la base: "))),altura=(float(input("Proporcione la altura: "))))
-print(f'El área es: {Area.area()}')
+
+Area2=Rectangulo(base= (float(input("Proporcione la base: "))),altura=(float(input("Proporcione la altura: "))))
+print(f'El área es: {Area2.area()}')
